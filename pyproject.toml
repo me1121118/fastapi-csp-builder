@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fastapi-csp-builder"
+version = "0.1.0"
+description = "Type-safe Content Security Policy (CSP) builder and middleware with nonce generation for FastAPI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    { name = "me1121118" }
+]
+keywords = ["fastapi", "python", "utility", "tools"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["fastapi>=0.100.0", "starlette>=0.27.0"]
+
+[project.urls]
+Homepage = "https://github.com/me1121118/fastapi-csp-builder"
+Repository = "https://github.com/me1121118/fastapi-csp-builder"
